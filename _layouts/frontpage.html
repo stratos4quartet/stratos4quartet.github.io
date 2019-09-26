@@ -34,9 +34,9 @@ format: frontpage
 {% comment %}
 *
 * First check, if there is a call for action-button
-*
+* Edit: added ability to have a mailto link -paul
 {% endcomment %}
-{% if page.callforaction.url contains 'http' %}
+{% if page.callforaction.url contains 'http' or 'mailto' %} 
 {% assign url = '' %}
 {% else %}
 {% capture url %}{{ site.url }}{{ site.baseurl }}{% endcapture %}
