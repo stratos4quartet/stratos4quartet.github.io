@@ -1,6 +1,9 @@
 - title: Home
   url: "/"
   side: left
+- title: "About Us"
+  url: "/about/"
+  side: left
 
 # - title: Getting Started
 #   url: "/getting-started/"
