@@ -1,9 +1,15 @@
 - title: Home
   url: "/"
   side: left
-- title: "About Us"
+- title: Gallery
+  url: "/gallery/"
+  side: left
+- title: "Bios"
   url: "/about/"
   side: left
+- title: Contact Us
+  url: "/contact/"
+  side: right
 
 # - title: Getting Started
 #   url: "/getting-started/"
