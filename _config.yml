@@ -1,0 +1,24 @@
+title:              Stratos4 Quartet
+email:              info@stratos4quartet.com
+description:        Harmony in the Mile High City
+author:             Start Bootstrap
+baseurl:            ""
+url:                "https://stratos4quartet.github.io"
+
+# Social Profiles
+# twitter_username:   SBootstrap
+github_username:    Stratos4Quartet
+facebook_username:  Stratos4Quartet
+linkedin_username:
+
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
